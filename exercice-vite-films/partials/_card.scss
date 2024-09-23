@@ -1,0 +1,11 @@
+@use "sass:color";
+
+.card{
+    padding: 5px;
+    margin: 5px;
+    &__btn{
+        padding: 5px 0;
+        border:none;
+        background: color.adjust($primary, $whiteness: 15% );
+    }
+}
